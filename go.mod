@@ -1,4 +1,4 @@
-module github.com/elliott-davis/solaredge-go
+module github.com/splable/solaredge-go
 
 go 1.13
 
