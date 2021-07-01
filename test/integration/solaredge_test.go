@@ -1,11 +1,12 @@
 package integration
 
 import (
-	"github.com/elliott-davis/solaredge-go/solaredge"
-	"github.com/stretchr/testify/assert"
 	"os"
 	"strconv"
 	"testing"
+
+	"github.com/splable/solaredge-go/solaredge"
+	"github.com/stretchr/testify/assert"
 )
 
 var (
@@ -38,4 +39,3 @@ func TestSiteDetails(t *testing.T) {
 	}
 	assert.Equal(t, site, "", "dummy check")
 }
-

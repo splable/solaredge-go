@@ -19,16 +19,15 @@ const (
 )
 
 type Client struct {
-	BaseURL *url.URL
+	BaseURL   *url.URL
 	UserAgent string
-	Token string
+	Token     string
 
 	common service
 
 	client *http.Client
-	Site *SiteService
-	Sites *SitesService
-
+	Site   *SiteService
+	Sites  *SitesService
 }
 
 type service struct {
